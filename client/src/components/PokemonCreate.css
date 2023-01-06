@@ -1,0 +1,210 @@
+
+ .create-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://wallpaper.dog/large/20366820.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home{
+    display: flex;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+
+.home-butt{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-butt{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.home-butt span{
+  position: relative;
+  z-index: 2;
+}
+
+.home-butt:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: black;
+  transition: all .35s;
+}
+
+.home-butt:hover{
+  color: #fff;
+}
+
+.home-butt:hover:after{
+  width: 100%;
+}
+
+.form-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 50px 20px;
+    margin-bottom: 50px;
+}
+body.darker .form-cont {
+    background-color: #39383c;
+}
+
+.form-cont input {
+    width: 200px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 5px;
+    display: flex;
+}
+
+.select-button{
+    margin-top: 30px;
+    color: black;
+    border-radius: 15px;
+    background-color: white ;
+    border: none;
+    height: 30px;
+    width: 90px;
+    margin: 0 5px;
+    text-align: center;
+    
+}
+
+body.darker .select-button {
+    background-color: red;
+}
+
+
+
+.select-button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.divTip{
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin: 15px 10px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.created-butt{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .created-butt{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .created-butt span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .created-butt:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    transition: all .35s;
+  }
+  
+  .created-butt:hover{
+    color: #fff;
+  }
+  
+  .created-butt:hover:after{
+    width: 100%;
+  }
+
+  .created-butt-div{
+    margin-top: 25px;
+    display: flex;
+
+  }
+  
+  .delete-type-cont {
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+}
+
+.delete-type-button {
+    margin-left: 5px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background: none;
+    width: 20px;
+    height: 20px;
+    padding: auto;
+    text-align: center;
+}
+
+.delete-type-button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: red;
+}
+
+/* comtenedor de los tipos*/
+.listCenter{
+  padding: 5px 10px;
+  list-style: none;
+}
